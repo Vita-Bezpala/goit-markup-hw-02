@@ -144,7 +144,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-.images{background: #FFFFFF;}
+.images {
+  background: #ffffff;
+}
 
 .background {
   background: #f4f4fd;
