@@ -22,6 +22,10 @@
 body {
   font-family: var(--font-primary);
   color: var(--color-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-logo-web {
@@ -58,10 +62,6 @@ body {
   color: #f4f4fd;
 }
 .header-navigation {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 
@@ -71,9 +71,6 @@ body {
 }
 
 .contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -84,11 +81,9 @@ body {
 
 /* Main Page */
 .title {
-  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .section-background {
@@ -99,14 +94,23 @@ body {
   font-size: 16px;
   line-height: 1.19;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  position: absolute;
-  position: absolute;
   background: var(--background-btn);
   cursor: pointer;
   font-family: inherit;
+  border: none;
+  width: 170px;
+  height: 51px;
+  left: 635px;
+  top: 432px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .header-btn:hover,
 .header-btn:focus {
@@ -114,34 +118,26 @@ body {
 }
 
 .soft-skills {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 .text {
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .subtitle {
-  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .item {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 
 .images {
@@ -167,6 +163,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
   text-align: center;
@@ -175,6 +172,7 @@ body {
   background: #f4f4fd;
   cursor: pointer;
   font-family: inherit;
+  border: none;
 }
 
 .header-button:hover,
@@ -184,17 +182,11 @@ body {
 }
 
 .section-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
 
 .footer {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 .footer-background {
